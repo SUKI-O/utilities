@@ -81,7 +81,6 @@ def partition_mid(A, lo, hi):
 import os
 import numpy as np
 import pandas as pd
-os.chdir('C:/Users/ituki/Documents/Classes/Coursera/Coursera_Algo')
 li = np.array(pd.read_table('QuickSort.txt', header=None)[0])
 total = 0
 quicksort_hi(li, 0, len(li)-1)
