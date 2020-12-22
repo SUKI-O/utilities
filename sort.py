@@ -53,7 +53,6 @@ def merge_sort (a):
                 j+=1
             k+=1
 
-
         while i < len(left):
             a[k] = left[i]
             i += 1
@@ -62,12 +61,6 @@ def merge_sort (a):
             a[k] = right[j]
             j += 1
             k += 1
-
-def copy (a):
-    c = []
-    for i in a:
-        c.append(i)
-    return c
 
 def factorial(n):
     if n == 1:
